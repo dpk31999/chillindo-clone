@@ -6,7 +6,7 @@
 /vendor
 /public/dist
 /public/build
-/public/mix-manifest.json
+# /public/mix-manifest.json
 .env
 .phpunit.result.cache
 Homestead.json
