@@ -1,27 +1,29 @@
 <template>
-  <div class="container">
+  <div class="header d-md-block d-none">
+    <div class="container">
       <div class="row">
           <div class="col-md-3">
-            <p class="text-header">
+            <div class="text-header">
                 CHÍNH SÁCH ĐỔI TRẢ 30 NGÀY
-            </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <p class="text-header">
+            <div class="text-header">
                 PHÍ GIAO HÀNG : ฿ 29
-            </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <p class="text-header">
+            <div class="text-header">
                 TẤT CẢ SẢN PHẨM BẮT ĐẦU TỪ ฿ 1
-            </p>
+            </div>
           </div>
           <div class="col-md-3">
-            <p class="text-header">
+            <div class="text-header">
                 LIÊN HỆ : SUPPORT.VN@CHILINDO.COM
-            </p>
+            </div>
           </div>
       </div>
+  </div>
   </div>
 </template>
 
@@ -41,5 +43,16 @@
   width: 2rem;
   height: 2rem;
   margin: -.375rem 0;
+}
+.header {
+  background-color: #005884;
+}
+.text-header {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 31px;
+  font-style: italic;
 }
 </style>
